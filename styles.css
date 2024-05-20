@@ -1,0 +1,63 @@
+.grid {
+    border: 10px solid purple;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block {
+    background-color: orange;
+
+}
+
+.starting-block {
+    background-color: blue;
+}
+
+
+
+
+.l1, .l2, .l3 {
+    background-image: url(images/log.jpg);
+    background-size: cover;
+}
+
+.l4, .l5 {
+    background-color: lightblue;
+}
+
+.c1r {
+    background-image: url(images/car-right.jpg);
+    background-size: cover;
+}
+
+.c1l {
+    background-image: url(images/car-left.jpeg);
+    background-size: cover;
+}
+
+
+
+.c2, .c3 {
+    background-color: lightgrey;
+    
+}
+
+.car-right {
+border-top: dashed 2px yellow;
+} 
+
+
+
+.frog {
+    background-image: url(images/frog.png);
+    background-size: cover;
+}
